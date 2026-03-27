@@ -30,8 +30,16 @@ In this team, code reviews will be done using pull requests. A developer creates
 
 ## Further Reading
 
-1.  
-2.  
-3.  
-4.  
-5.  
+1. https://google.github.io/eng-practices/review/
+2. https://www.atlassian.com/agile/software-development/code-reviews
+3. https://martinfowler.com/articles/codeReview.html
+4. 
+5. 
+
+## Notes
+
+- Code reviews help catch defects early
+- Smaller pull requests are easier to review
+- Reviews should focus on logic, not just formatting
+- Feedback should be clear and constructive
+- Code reviews also help with knowledge sharing across the team
