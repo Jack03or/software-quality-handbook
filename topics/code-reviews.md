@@ -8,6 +8,8 @@ Code reviews are when developers check each other’s code before it gets added 
 
 Code reviews are important because they help catch bugs early before the code goes live. They also improve the overall quality of the code and make it easier to understand. Another benefit is that team members can learn from each other by seeing different ways of solving problems.
 
+They also act as an important quality control step before code is merged, helping reduce defects reaching production.
+
 ## Best Practices
 
 - Keep pull requests small so they are easier to review  
@@ -15,6 +17,7 @@ Code reviews are important because they help catch bugs early before the code go
 - Focus on logic, bugs and readability  
 - Clearly explain what the changes are doing  
 - Give feedback in a respectful and helpful way  
+- Ensure pull requests include enough context for reviewers
 
 ## Bad Practices to Avoid
 
@@ -27,6 +30,14 @@ Code reviews are important because they help catch bugs early before the code go
 ## Pull Request Workflow
 
 In this team, code reviews will be done using pull requests. A developer creates a branch, makes their changes, and then opens a pull request. Another team member reviews the code and either suggests changes or approves it. Once approved, the code is merged into the main branch.
+
+## Common Challenges
+
+Code reviews can become less effective when pull requests are too large or unclear. If there is too much going on in one pull request, it becomes harder for the reviewer to properly understand the changes and spot problems.
+
+Another issue is delayed reviews. If a pull request sits waiting for too long, it slows down progress and makes the feedback less useful.
+
+Teams can also spend too much time focusing on small formatting issues instead of more important things like logic, design and maintainability.
 
 ## Further Reading
 
