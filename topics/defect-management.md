@@ -28,4 +28,17 @@ Defect management is the process of identifying, tracking, prioritising and reso
 
 ## Further Reading
 
-- To be added
+## Further Reading
+
+- https://www.testrail.com/blog/defect-management/
+- https://testsigma.com/blog/defects-in-software-testing/
+- https://testrigor.com/blog/defect-based-testing/
+- https://www.browserstack.com/guide/defect-management-in-software-testing
+- https://katalon.com/resources-center/blog/defect-management-in-software-testing
+
+## Notes
+
+- Defects should be clearly described with steps to reproduce
+- Severity and priority are different concepts
+- Defects go through a lifecycle such as open, in progress, resolved and closed
+- Issue tracking tools help teams manage defects properly
