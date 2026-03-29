@@ -3,6 +3,7 @@
 ## Overview
 
 Defect management is the process of identifying, tracking, prioritising and resolving defects in a software project.
+A structured defect management process ensures that issues are handled consistently and efficiently. Without this, defects can be missed or resolved in the wrong order.
 
 ## Why It Matters
 
@@ -26,7 +27,13 @@ Defect management is the process of identifying, tracking, prioritising and reso
 - Poor communication between team members
 - Delays in triage or updates
 
-## Further Reading
+## Bad Practices to Avoid
+
+- Reporting defects with little or no detail
+- Confusing severity with priority
+- Ignoring or delaying defect updates
+- Fixing issues without properly tracking them
+- Poor communication between team members
 
 ## Further Reading
 
