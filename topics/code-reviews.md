@@ -10,6 +10,8 @@ Code reviews are important because they help catch bugs early before the code go
 
 They also act as an important quality control step before code is merged, helping reduce defects reaching production.
 
+This also supports long-term maintainability of the codebase.
+
 ## Best Practices
 
 - Keep pull requests small so they are easier to review  
@@ -31,6 +33,8 @@ They also act as an important quality control step before code is merged, helpin
 
 In this team, code reviews will be done using pull requests. A developer creates a branch, makes their changes, and then opens a pull request. Another team member reviews the code and either suggests changes or approves it. Once approved, the code is merged into the main branch.
 
+Pull requests should include a clear description of changes so reviewers can understand the context quickly.
+
 ## Common Challenges
 
 Code reviews can become less effective when pull requests are too large or unclear. If there is too much going on in one pull request, it becomes harder for the reviewer to properly understand the changes and spot problems.
@@ -44,8 +48,8 @@ Teams can also spend too much time focusing on small formatting issues instead o
 1. https://google.github.io/eng-practices/review/
 2. https://www.atlassian.com/agile/software-development/code-reviews
 3. https://martinfowler.com/articles/codeReview.html
-4. 
-5. 
+4. https://abseil.io/resources/swe-book/html/ch09.html
+5. https://solmaz.io/google-eng-practices-github
 
 ## Notes
 
