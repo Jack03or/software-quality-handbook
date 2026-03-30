@@ -4,10 +4,11 @@
 Task estimation in Scrum helps the team discuss work before it starts and gives a rough idea of the effort involved.
 
 ## Why It Matters
-- Helps the team plan sprint work
-- Makes large or unclear tasks more obvious
-- Supports better discussion before development starts 
-- Improves consistency in how work is planned
+- Helps surface hidden risks early, such as edge cases, unclear requirements, or technical debt before development begins  
+- Builds shared understanding within the team by encouraging discussion and identifying assumptions  
+- Improves planning accuracy over time as teams learn from previous estimates and completed work  
+- Reduces pressure by treating estimates as rough forecasts rather than fixed commitments  
+- Makes large or unclear tasks more visible, encouraging teams to break them down before starting development  
 
 ## Best Practices
 - Estimate as a team to get multiple perspectives and avoid relying on one person  
@@ -45,8 +46,6 @@ Task estimation in Scrum helps the team discuss work before it starts and gives 
 During sprint planning, a team estimates a simple UI feature at 3 story points based on similar past work. However, once development starts, they discover edge cases in form validation, browser compatibility issues, and additional testing requirements that were not visible at the start. The task ends up taking significantly more effort than expected.
 
 This shows how hidden complexity and overlooked work can cause estimates to be inaccurate, even when the team has prior experience with similar tasks.
-
-This shows how hidden complexity like edge cases and overlooked testing turns "quick wins" into major time sinks, even for experienced teams.
 
 ## Further Reading
 - Why Estimating Tasks is So Hard and Why Developers Hate It — https://www.adrianolisboa.com/why-estimating-tasks-is-so-hard-and-why-developers-hate-it/  
