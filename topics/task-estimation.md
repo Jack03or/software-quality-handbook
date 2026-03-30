@@ -33,10 +33,20 @@ Task estimation in Scrum helps the team discuss work before it starts and gives 
 - Failing to discuss assumptions, leading to misunderstandings  
 
 ## Common Challenges
-- Unclear requirements
-- Different experience levels in the team
-- Pressure to give exact deadlines
-- Overconfidence in estimates
+- Estimation often becomes inaccurate due to hidden complexity. Tasks that seem simple can involve edge cases, unclear requirements, or technical debt that only becomes visible during development.
+- Another common issue is forgetting non-coding work such as testing, code reviews, and deployment delays. These are often not considered during initial estimation, leading to underestimation.
+- Different team members may also have different assumptions about the scope of a task. If these assumptions are not discussed, it can result in inconsistent estimates and misunderstandings.
+- Dependencies are a major challenge in estimation. Tasks that rely on other teams, external services, or third-party APIs can take longer than expected, even if the coding work itself is small.
+- Teams can also struggle when they lack historical data or experience. New teams often find estimation difficult because they do not yet have a clear baseline for comparison.
+- Another issue is pressure to give quick or precise estimates. This can lead to overly optimistic guesses rather than realistic forecasts.
+- Finally, estimation can be affected by team dynamics. If one person dominates discussions, it can reduce the accuracy of the estimate and limit input from others.
+
+## Example
+During sprint planning, a team estimates a simple UI feature at 3 story points based on similar past work. However, once development starts, they discover edge cases in form validation, browser compatibility issues, and additional testing requirements that were not visible at the start. The task ends up taking significantly more effort than expected.
+
+This shows how hidden complexity and overlooked work can cause estimates to be inaccurate, even when the team has prior experience with similar tasks.
+
+This shows how hidden complexity like edge cases and overlooked testing turns "quick wins" into major time sinks, even for experienced teams.
 
 ## Further Reading
 - Why Estimating Tasks is So Hard and Why Developers Hate It — https://www.adrianolisboa.com/why-estimating-tasks-is-so-hard-and-why-developers-hate-it/  
