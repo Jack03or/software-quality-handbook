@@ -4,7 +4,7 @@
 
 Code reviews are when developers check each other’s code before it gets added to the main branch. It’s basically a way of making sure the code is correct and follows the same standards across the team.
 
-## Why Code Reviews Matter
+## Why It Matters
 
 Code reviews are important because they help catch bugs early before the code goes live. They also improve the overall quality of the code and make it easier to understand. Another benefit is that team members can learn from each other by seeing different ways of solving problems.
 
@@ -42,6 +42,12 @@ Code reviews can become less effective when pull requests are too large or uncle
 Another issue is delayed reviews. If a pull request sits waiting for too long, it slows down progress and makes the feedback less useful.
 
 Teams can also spend too much time focusing on small formatting issues instead of more important things like logic, design and maintainability.
+
+## Example
+
+A developer submits a large pull request with many changes. The reviewer struggles to understand the logic and misses a bug during review. The issue is only discovered later in testing.
+
+This shows why smaller pull requests and clear descriptions are important for effective code reviews.
 
 ## Further Reading
 
