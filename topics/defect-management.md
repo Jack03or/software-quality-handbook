@@ -7,10 +7,10 @@ A structured defect management process ensures that issues are handled consisten
 
 ## Why It Matters
 
-- Helps teams respond to bugs in a more organised way
-- Reduces confusion around priority and severity
-- Improves visibility of defects across the project
-- Supports better decision-making about what should be fixed first
+- Helps teams decide which defects to fix first when time and resources are limited  
+- Ensures high-impact issues affecting core functionality or users are prioritised  
+- Prevents less important bugs from blocking releases or important milestones  
+- Keeps the team aligned on what is considered critical versus minor issues  
 
 ## Best Practices
 
@@ -20,6 +20,7 @@ A structured defect management process ensures that issues are handled consisten
 - Track defects through a defined lifecycle
 - Fix high-priority issues first
 - Use a tracking tool to manage and monitor defects
+- Prioritise defects based on business impact rather than treating all issues equally
 
 ## Example
 
@@ -41,17 +42,25 @@ This shows why clear defect reports are important for efficient resolution.
 - Ignoring or delaying defect updates
 - Fixing issues without properly tracking them
 - Poor communication between team members
+- Treating all defects as equally urgent regardless of their impact on the system
 
 ## Further Reading
 
-- https://www.testrail.com/blog/defect-management/
-- https://testsigma.com/blog/defects-in-software-testing/
-- https://testrigor.com/blog/defect-based-testing/
-- https://www.browserstack.com/guide/defect-management-in-software-testing
-- https://katalon.com/resources-center/blog/defect-management-in-software-testing
-- https://testomat.io/blog/bug-life-cycle-in-software-testing/
-- https://www.alooba.com/skills/concepts/defect-management-423/defect-prioritization/
-- https://www.caktusgroup.com/blog/2018/04/30/prioritizing-defects/
+- TestRail: Defect Management — https://www.testrail.com/blog/defect-management/  
+
+- TestSigma: Defects in Software Testing — https://testsigma.com/blog/defects-in-software-testing/  
+
+- TestRigor: Defect-Based Testing — https://testrigor.com/blog/defect-based-testing/  
+
+- BrowserStack: Defect Management in Software Testing — https://www.browserstack.com/guide/defect-management-in-software-testing  
+
+- Katalon: Defect Management in Software Testing — https://katalon.com/resources-center/blog/defect-management-in-software-testing  
+
+- Testomat: Bug Life Cycle in Software Testing — https://testomat.io/blog/bug-life-cycle-in-software-testing/  
+
+- Alooba: Defect Prioritization — https://www.alooba.com/skills/concepts/defect-management-423/defect-prioritization/  
+
+- Caktus Group: Prioritizing Defects — https://www.caktusgroup.com/blog/2018/04/30/prioritizing-defects/ 
 
 ## Notes
 
