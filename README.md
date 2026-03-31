@@ -62,6 +62,14 @@ This approach ensured:
 
 ---
 
+This approach also reflects trunk-based development, where small, frequent changes are integrated into the main branch through short-lived feature branches and continuous feedback.
+
+### Trunk-Based Development
+
+![Trunk-Based Development](images/trunk-based-development.png)
+
+*Figure: Short-lived branches merging into the main trunk in trunk-based development.*
+
 ## Key Learnings
 
 - Collaboration improves quality through shared feedback  
