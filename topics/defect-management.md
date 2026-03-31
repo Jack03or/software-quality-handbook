@@ -19,13 +19,20 @@ A structured defect management process ensures that issues are handled consisten
 - Agree on severity and priority levels
 - Track defects through a defined lifecycle
 - Fix high-priority issues first
+- Use a tracking tool to manage and monitor defects
+
+## Example
+
+A defect is reported without clear steps to reproduce. The developer cannot replicate the issue, which delays the fix. Later, it turns out the issue only occurs under specific conditions that were not initially described.
+
+This shows why clear defect reports are important for efficient resolution.
 
 ## Common Challenges
 
 - Confusion between severity and priority
-- Incomplete bug reports
+- Incomplete or unclear bug reports
 - Poor communication between team members
-- Delays in triage or updates
+- Delays in triage or updating defect status
 
 ## Bad Practices to Avoid
 
@@ -42,6 +49,9 @@ A structured defect management process ensures that issues are handled consisten
 - https://testrigor.com/blog/defect-based-testing/
 - https://www.browserstack.com/guide/defect-management-in-software-testing
 - https://katalon.com/resources-center/blog/defect-management-in-software-testing
+- https://testomat.io/blog/bug-life-cycle-in-software-testing/
+- https://www.alooba.com/skills/concepts/defect-management-423/defect-prioritization/
+- https://www.caktusgroup.com/blog/2018/04/30/prioritizing-defects/
 
 ## Notes
 
