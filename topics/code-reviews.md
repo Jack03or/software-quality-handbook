@@ -20,6 +20,7 @@ This also supports long-term maintainability of the codebase.
 - Clearly explain what the changes are doing  
 - Give feedback in a respectful and helpful way  
 - Ensure pull requests include enough context for reviewers
+- Perform code reviews early and consistently as part of the workflow to catch defects before they reach later stages
 
 ## Bad Practices to Avoid
 
@@ -28,6 +29,7 @@ This also supports long-term maintainability of the codebase.
 - Merging code without it being properly reviewed  
 - Only focusing on small things like formatting  
 - Leaving reviews too late  
+- Treating code reviews as optional or leaving them until the end of development
 
 ## Pull Request Workflow
 
@@ -50,12 +52,17 @@ A developer submits a large pull request with many changes. The reviewer struggl
 This shows why smaller pull requests and clear descriptions are important for effective code reviews.
 
 ## Further Reading
+- Google Engineering Practices: Code Review — https://google.github.io/eng-practices/review/  
 
-1. https://google.github.io/eng-practices/review/
-2. https://www.atlassian.com/agile/software-development/code-reviews
-3. https://martinfowler.com/articles/codeReview.html
-4. https://abseil.io/resources/swe-book/html/ch09.html
-5. https://solmaz.io/google-eng-practices-github
+- Atlassian: Code Reviews — https://www.atlassian.com/agile/software-development/code-reviews  
+
+- Martin Fowler: Code Review — https://martinfowler.com/articles/codeReview.html  
+
+- Abseil Software Engineering Book (Code Review) — https://abseil.io/resources/swe-book/html/ch09.html  
+
+- Google Engineering Practices (Summary) — https://solmaz.io/google-eng-practices-github  
+
+- Code Reviews: Just Do It — https://blog.codinghorror.com/code-reviews-just-do-it/  
 
 ## Notes
 
