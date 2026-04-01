@@ -14,21 +14,21 @@ This also supports long-term maintainability of the codebase.
 
 ## Best Practices
 
-- Keep pull requests small so they are easier to review  
-- Review code within a reasonable time  
-- Focus on logic, bugs and readability  
-- Clearly explain what the changes are doing  
-- Give feedback in a respectful and helpful way  
+- Keep pull requests small so they are easier to review
+- Review code within a reasonable time
+- Focus on logic, bugs and readability
+- Clearly explain what the changes are doing
+- Give feedback in a respectful and helpful way
 - Ensure pull requests include enough context for reviewers
 - Perform code reviews early and consistently as part of the workflow to catch defects before they reach later stages
 
 ## Bad Practices to Avoid
 
-- Creating very large pull requests that are hard to review  
-- Ignoring feedback from other developers  
-- Merging code without it being properly reviewed  
-- Only focusing on small things like formatting  
-- Leaving reviews too late  
+- Creating very large pull requests that are hard to review
+- Ignoring feedback from other developers
+- Merging code without it being properly reviewed
+- Only focusing on small things like formatting
+- Leaving reviews too late
 - Treating code reviews as optional or leaving them until the end of development
 
 ## Pull Request Workflow
@@ -36,6 +36,12 @@ This also supports long-term maintainability of the codebase.
 In this team, code reviews will be done using pull requests. A developer creates a branch, makes their changes, and then opens a pull request. Another team member reviews the code and either suggests changes or approves it. Once approved, the code is merged into the main branch.
 
 Pull requests should include a clear description of changes so reviewers can understand the context quickly.
+
+### Pull Request Review Diagram
+
+![Pull Request Review Diagram](../images/code-reviews-chart.png)
+
+_Figure: Example pull request workflow showing review, feedback, approval, and merge steps._
 
 ## Common Challenges
 
@@ -52,17 +58,18 @@ A developer submits a large pull request with many changes. The reviewer struggl
 This shows why smaller pull requests and clear descriptions are important for effective code reviews.
 
 ## Further Reading
-- Google Engineering Practices: Code Review — https://google.github.io/eng-practices/review/  
 
-- Atlassian: Code Reviews — https://www.atlassian.com/agile/software-development/code-reviews  
+- Google Engineering Practices: Code Review — https://google.github.io/eng-practices/review/
 
-- Martin Fowler: Code Review — https://martinfowler.com/articles/codeReview.html  
+- Atlassian: Code Reviews — https://www.atlassian.com/agile/software-development/code-reviews
 
-- Abseil Software Engineering Book (Code Review) — https://abseil.io/resources/swe-book/html/ch09.html  
+- Martin Fowler: Code Review — https://martinfowler.com/articles/codeReview.html
 
-- Google Engineering Practices (Summary) — https://solmaz.io/google-eng-practices-github  
+- Abseil Software Engineering Book (Code Review) — https://abseil.io/resources/swe-book/html/ch09.html
 
-- Code Reviews: Just Do It — https://blog.codinghorror.com/code-reviews-just-do-it/  
+- Google Engineering Practices (Summary) — https://solmaz.io/google-eng-practices-github
+
+- Code Reviews: Just Do It — https://blog.codinghorror.com/code-reviews-just-do-it/
 
 ## Notes
 
