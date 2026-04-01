@@ -4,6 +4,12 @@
 
 Task estimation in Scrum is a team activity used to discuss the size and complexity of work before development starts, helping the team build a shared understanding of what the task involves. It is not about producing exact numbers, but about making uncertainty visible early, comparing work against past examples, and improving sprint planning over time.
 
+### Task Estimation Process Diagram
+
+![Task Estimation Process Diagram](../images/task-estimation-chart.png)
+
+*Figure: Example Scrum estimation flow from backlog preparation to sprint execution.*
+
 ## Why It Matters
 
 - Helps surface hidden risks early, such as edge cases, unclear requirements, or technical debt before development begins
