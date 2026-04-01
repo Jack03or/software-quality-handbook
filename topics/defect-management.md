@@ -5,6 +5,11 @@
 Defect management is the process of identifying, tracking, prioritising and resolving defects in a software project.
 A structured defect management process ensures that issues are handled consistently and efficiently. Without this, defects can be missed or resolved in the wrong order.
 
+### Defect Lifecycle Diagram
+
+![Defect Lifecycle Diagram](../images/DefectLifecycleChart.png)
+
+*Figure: Example defect lifecycle showing how issues move from reporting to closure.*
 ## Why It Matters
 
 - Helps teams decide which defects to fix first when time and resources are limited  
