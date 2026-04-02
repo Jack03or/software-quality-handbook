@@ -45,11 +45,17 @@ _Figure: Example pull request workflow showing review, feedback, approval, and m
 
 ## Common Challenges
 
-Code reviews can become less effective when pull requests are too large or unclear. If there is too much going on in one pull request, it becomes harder for the reviewer to properly understand the changes and spot problems.
+- Large pull requests overwhelm reviewers. When a developer submits hundreds of lines of changes across multiple files with no clear summary, reviewers struggle to follow the logic and are more likely to miss bugs.
 
-Another issue is delayed reviews. If a pull request sits waiting for too long, it slows down progress and makes the feedback less useful.
+- Delayed reviews slow down the whole team. When a pull request sits waiting for several days, the author loses context and feedback becomes harder to act on. Reviews should happen promptly to keep momentum going.
 
-Teams can also spend too much time focusing on small formatting issues instead of more important things like logic, design and maintainability.
+- Focusing too much on style over substance wastes time. Reviewers can fall into the habit of commenting on formatting and spacing while missing more serious issues like security vulnerabilities or performance problems in the logic.
+
+- Unconstructive feedback makes the process less effective. Comments that point out problems without explaining why or suggesting improvements put developers on the defensive rather than encouraging collaboration.
+
+- When only senior team members review code, it creates knowledge silos. Less experienced developers miss the opportunity to learn patterns and the team becomes dependent on a small number of people to catch problems.
+
+- Pull requests with no context force reviewers to guess. Without a clear description explaining what changed and why, reviewers have to hunt through tickets or make assumptions, which slows down the review and increases the chance of something being missed.
 
 ## Example
 
