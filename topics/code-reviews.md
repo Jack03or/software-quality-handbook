@@ -71,10 +71,23 @@ This shows why smaller pull requests and clear descriptions are important for ef
 
 - Code Reviews: Just Do It — https://blog.codinghorror.com/code-reviews-just-do-it/
 
-## Notes
+## Notes from Reading Sources
 
-- Code reviews help catch defects early
-- Smaller pull requests are easier to review
-- Reviews should focus on logic, not just formatting
-- Feedback should be clear and constructive
-- Code reviews also help with knowledge sharing across the team
+**Atlassian: Code Reviews:**
+
+- Code reviews help catch bugs early before code reaches production
+- Smaller pull requests are easier to review properly than large ones
+- Reviews are more useful when they focus on correctness, logic, and readability
+- Clear pull request descriptions help reviewers understand the changes faster
+
+**Google Engineering Practices: Code Review:**
+
+- Code reviews improve code quality and help keep standards consistent across the team
+- Reviews work best when they are done early and regularly, not left until the end
+- The goal is to improve the code, not just approve it quickly
+
+**Martin Fowler: Code Review:**
+
+- Code reviews help teams share knowledge and reduce dependence on one person
+- They are useful for long-term maintainability, not just finding bugs
+- Constructive feedback makes the review process more effective
