@@ -55,9 +55,9 @@ Task estimation in Scrum is a team activity used to discuss the size and complex
 
 ## Example
 
-During sprint planning, a team estimates a simple UI feature at 3 story points based on similar past work. However, once development starts, they discover edge cases in form validation, browser compatibility issues, and additional testing requirements that were not visible at the start. The task ends up taking significantly more effort than expected.
+A team is asked to estimate a login feature. It looks straightforward so they assign it 2 story points. One developer does most of the talking during estimation and the rest of the team agrees without much discussion. During development it turns out the feature needs to integrate with a third party authentication service, handle multiple edge cases, and go through a security review. The task ends up taking three times longer than expected.
 
-This shows how hidden complexity and overlooked work can cause estimates to be inaccurate, even when the team has prior experience with similar tasks.
+The team should have discussed assumptions together rather than letting one person lead the estimate. If they had broken the task down and talked through dependencies like the external service and the security review, the hidden complexity would have been visible before development started.
 
 ## Further Reading
 
