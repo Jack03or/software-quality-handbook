@@ -35,10 +35,12 @@ This shows why clear defect reports are important for efficient resolution.
 
 ## Common Challenges
 
-- Confusion between severity and priority
-- Incomplete or unclear bug reports
-- Poor communication between team members
-- Delays in triage or updating defect status
+- Incomplete defect reports slow everything down. Without steps to reproduce, screenshots, or environment details, developers waste hours trying to replicate the issue rather than fixing it.
+- Mixing up severity and priority leads to the wrong bugs getting fixed first. Severity is about how broken the code is, priority is about how much it matters to users. Get them confused and you end up with cosmetic issues blocking releases while data bugs sit untouched.
+- Poor communication between testers and developers leaves defects stuck in limbo. One side thinks it is fixed, the other does not, and nobody updates the status during handoffs.
+- Without clear ownership or regular triage, high impact bugs can sit unassigned for days while the team works through lower priority problems. By the time someone picks them up the damage is already done.
+- Skipping lifecycle stages like assigned, fixed, and retest means defects fall through the cracks. A bug marked as fixed is not the same as a bug that has been verified and closed.
+- Logging every minor issue without filtering clutters the defect board fast. When everything is in there, nothing stands out and the real priorities get buried.
 
 ## Bad Practices to Avoid
 
