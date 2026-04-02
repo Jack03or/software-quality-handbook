@@ -100,3 +100,21 @@ The team should have discussed assumptions together rather than letting one pers
 - Estimation should be done as a team using shared reference points
 - Story points should not be converted into hours
 - Estimates should be treated as forecasts, not commitments
+
+**Agile Estimation: Points vs Hours (Agile Alliance):**
+
+- Story points measure relative complexity better than absolute hours
+- Hours create false precision while points focus on team capacity
+- Teams get more predictable when they stop chasing exact time estimates
+
+**Story Points: To Estimate or Not to Estimate (Scrum.org):**
+
+- Estimates work best as conversation starters, not firm commitments
+- Some teams abandon points entirely and just use "ready/not ready"
+- The real value is surfacing risks and assumptions during planning
+
+**6 Best Practices for Estimating Agile Projects (Mike McEwen/LinkedIn):**
+
+- Use Fibonacci sequence to avoid arguing over small differences like 4 vs 5
+- Planning poker forces team discussion and reveals hidden complexities
+- Keep reference stories updated to fight point inflation over time
