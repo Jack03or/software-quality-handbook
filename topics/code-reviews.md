@@ -59,9 +59,11 @@ _Figure: Example pull request workflow showing review, feedback, approval, and m
 
 ## Example
 
-A developer submits a large pull request with many changes. The reviewer struggles to understand the logic and misses a bug during review. The issue is only discovered later in testing.
+A developer works on a new feature for several days and opens a large pull request with over 400 lines of changes. The reviewer is unfamiliar with parts of the codebase and the pull request has no description explaining what was changed or why. The reviewer approves it quickly to avoid holding things up. A bug in the logic makes it to production and takes a full day to track down and fix.
 
-This shows why smaller pull requests and clear descriptions are important for effective code reviews.
+ 
+
+The developer should have broken the work into smaller pull requests and included a clear description of the changes. The reviewer should not have rushed the approval. A quicker review turnaround on smaller, well described pull requests would have made it easier to catch the issue before it reached production.
 
 ## Further Reading
 
