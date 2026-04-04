@@ -91,3 +91,21 @@ This shows why smaller pull requests and clear descriptions are important for ef
 - Code reviews help teams share knowledge and reduce dependence on one person
 - They are useful for long-term maintainability, not just finding bugs
 - Constructive feedback makes the review process more effective
+
+**Abseil Software Engineering Book (Code Review):**
+
+- Code reviews should check for security issues, performance problems, and test coverage
+- Reviewers need clear context about what changed and why the changes were made
+- Good reviews catch design problems early when they are cheaper to fix
+
+**Google Engineering Practices (Summary):**
+
+- Code reviews improve code quality and support knowledge sharing across the team
+- Reviews work best when done early and regularly as part of normal workflow
+- Focus on the code, not the person — make feedback constructive
+
+**Code Reviews: Just Do It:**
+
+- Even basic code review habits dramatically reduce production bugs
+- Reviews force developers to explain their thinking through commit messages
+- Small, consistent review discipline prevents major problems down the road
