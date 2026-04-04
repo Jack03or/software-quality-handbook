@@ -9,7 +9,8 @@ A structured defect management process ensures that issues are handled consisten
 
 ![Defect Lifecycle Diagram](../images/DefectLifecycleChart.png)
 
-*Figure: Example defect lifecycle showing how issues move from reporting to closure.*
+_Figure: Example defect lifecycle showing how issues move from reporting to closure._
+
 ## Why It Matters
 
 - Helps teams decide which defects to fix first when time and resources are limited
@@ -29,9 +30,9 @@ A structured defect management process ensures that issues are handled consisten
 
 ## Example
 
-A defect is reported without clear steps to reproduce. The developer cannot replicate the issue, which delays the fix. Later, it turns out the issue only occurs under specific conditions that were not initially described.
+A tester logs a defect with the description "button not working" and no steps to reproduce. The developer cannot replicate the issue and marks it as closed. The same bug is reported again two weeks later by a different tester. This time it is investigated properly and turns out the button fails only when a user has a specific account type. By this point the feature has already been released to some users.
 
-This shows why clear defect reports are important for efficient resolution.
+The original report should have included clear steps to reproduce the issue, the conditions it occurs under, and the expected versus actual behaviour. A structured defect process with proper lifecycle tracking would have prevented the issue from being closed prematurely and caught it before release.
 
 ## Common Challenges
 
@@ -93,3 +94,27 @@ This shows why clear defect reports are important for efficient resolution.
 - Defects usually follow a lifecycle such as new, assigned, fixed, retested, and closed
 - A clear lifecycle makes it easier for the team to know where each bug stands
 - Without updates, defects can be delayed or forgotten
+
+**Katalon: Defect Management in Software Testing:**
+
+- Defect management prevents bugs from slipping into production by catching them early
+- Teams should use consistent severity/priority matrices to avoid confusion about fix order
+- Automated tools help track defects through their full lifecycle from logging to verification
+
+**TestRigor: Defect-Based Testing:**
+
+- Focus testing on likely defect areas rather than rigid test case coverage
+- Good reports need environment details such as browser, OS, and version since bugs often appear in specific setups
+- Retesting fixed defects is critical — fixed does not mean verified working
+
+**Alooba: Defect Prioritization:**
+
+- Prioritization balances business risk, frequency of occurrence, and fix cost
+- High severity/low priority bugs such as rare crashes can wait if they do not affect many users
+- Regular triage meetings keep the defect backlog manageable
+
+**Caktus Group: Prioritizing Defects:**
+
+- Severity describes how bad the bug is technically, while priority shows business urgency
+- Use a matrix combining impact and likelihood to decide fix order, not just gut feel
+- Fix critical path blockers first, even if they are small code changes
