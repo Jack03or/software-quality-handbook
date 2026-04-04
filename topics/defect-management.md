@@ -5,15 +5,12 @@
 Defect management is the process of identifying, tracking, prioritising and resolving defects in a software project.
 A structured defect management process ensures that issues are handled consistently and efficiently. Without this, defects can be missed or resolved in the wrong order.
 
-<<<<<<< HEAD
-=======
 ### Defect Lifecycle Diagram
 
 ![Defect Lifecycle Diagram](../images/DefectLifecycleChart.png)
 
 _Figure: Example defect lifecycle showing how issues move from reporting to closure._
 
->>>>>>> a14a9f8 (enhanced defect management section with improved example and additional notes from sources)
 ## Why It Matters
 
 - Helps teams respond to bugs in a more organised way
@@ -61,26 +58,6 @@ The original report should have included clear steps to reproduce the issue, the
 - https://testomat.io/blog/bug-life-cycle-in-software-testing/
 - https://www.alooba.com/skills/concepts/defect-management-423/defect-prioritization/
 - https://www.caktusgroup.com/blog/2018/04/30/prioritizing-defects/
-
-## Notes
-
-<<<<<<< HEAD
-- Defects should be clearly described with steps to reproduce
-- Severity and priority are different concepts
-- Defects go through a lifecycle such as open, in progress, resolved and closed
-- Issue tracking tools help teams manage defects properly
-=======
-- TestRigor: Defect-Based Testing — https://testrigor.com/blog/defect-based-testing/
-
-- BrowserStack: Defect Management in Software Testing — https://www.browserstack.com/guide/defect-management-in-software-testing
-
-- Katalon: Defect Management in Software Testing — https://katalon.com/resources-center/blog/defect-management-in-software-testing
-
-- Testomat: Bug Life Cycle in Software Testing — https://testomat.io/blog/bug-life-cycle-in-software-testing/
-
-- Alooba: Defect Prioritization — https://www.alooba.com/skills/concepts/defect-management-423/defect-prioritization/
-
-- Caktus Group: Prioritizing Defects — https://www.caktusgroup.com/blog/2018/04/30/prioritizing-defects/
 
 ## Notes from Reading Sources
 
@@ -132,4 +109,3 @@ The original report should have included clear steps to reproduce the issue, the
 - Severity describes how bad the bug is technically, while priority shows business urgency
 - Use a matrix combining impact and likelihood to decide fix order, not just gut feel
 - Fix critical path blockers first, even if they are small code changes
->>>>>>> a14a9f8 (enhanced defect management section with improved example and additional notes from sources)
