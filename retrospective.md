@@ -22,6 +22,12 @@ The diagrams were a good call. Each person made a diagram for someone else's sec
 
 Git caused a headache at one point. A pull request got stuck because local changes conflicted with the remote version. It meant discarding local work and pulling the latest before continuing. Not a disaster, but a reminder to pull before starting work on a branch.
 
+A merge conflict occurred in the defect management file when two branches edited the same section at the same time. Resolving it took a few attempts across multiple commits and caused the Further Reading section to revert to an older version temporarily before being restored.
+
+One team member accidentally committed to the wrong branch and had to use git cherry-pick to move the changes to the correct branch. It worked but added unnecessary steps that could have been avoided by double checking the active branch before committing.
+
+A .DS_Store file was accidentally committed to the repository. This is a hidden Mac system file that gets generated automatically and should not be tracked. It has been added to .gitignore to prevent it happening again.
+
 Formatting was inconsistent early on. The Further Reading sections looked different across files and had to be tidied up later. It was a small thing but added unnecessary work.
 
 One pull request looked much larger than it was because the code editor auto-formatted the file on save. The content hadn't actually changed but the diff was huge, which made reviewing it harder than it needed to be.
@@ -46,6 +52,8 @@ Apply feedback within the same pull request rather than opening a new one for ea
 
 Set formatting rules at the start. Fixing inconsistencies later is annoying and avoidable.
 
+Add a .gitignore file at the start of the project to prevent system files like .DS_Store being committed accidentally.
+
 ---
 
 ## Development Approach
@@ -54,14 +62,10 @@ We used short lived feature branches and merged frequently into main through pul
 
 ![Trunk Based Development](images/TrunkBasedDiagramSqA.png)
 
-*Figure: Our team's trunk based development workflow, showing how we managed feature branches and pull requests throughout the project.*
+_Figure: Our team's trunk based development workflow, showing how we managed feature branches and pull requests throughout the project._
 
 ---
 
 ## Team Contributions
 
-- Jack focused on Task Estimation, contributed to Code Reviews, created the Defect Management diagram, and developed the README.
-- Dylan focused on Code Reviews, contributed to Defect Management, and created the Task Estimation diagram.
-- Shane focused on Defect Management, contributed to Task Estimation, and created the Code Reviews diagram.
-
-All three reviewed each other's pull requests throughout the project.
+Full contribution details for each team member can be found in [team-contributions.md](team-contributions.md).
