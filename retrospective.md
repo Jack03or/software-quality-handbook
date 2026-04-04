@@ -52,7 +52,7 @@ Set formatting rules at the start. Fixing inconsistencies later is annoying and 
 
 We used short lived feature branches and merged frequently into main through pull requests. Each PR needed at least one approval before merging. This kept the main branch stable and meant nobody was working on stale code for long.
 
-![Trunk Based Development](images/TrunkBasedDiagramSqa.png)
+![Trunk Based Development](images/TrunkBasedDiagramSqA.png)
 
 *Figure: Our team's trunk based development workflow, showing how we managed feature branches and pull requests throughout the project.*
 
