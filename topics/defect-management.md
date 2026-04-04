@@ -54,14 +54,14 @@ The original report should have included clear steps to reproduce the issue, the
 
 ## Further Reading
 
-- https://www.testrail.com/blog/defect-management/
-- https://testsigma.com/blog/defects-in-software-testing/
-- https://testrigor.com/blog/defect-based-testing/
-- https://www.browserstack.com/guide/defect-management-in-software-testing
-- https://katalon.com/resources-center/blog/defect-management-in-software-testing
-- https://testomat.io/blog/bug-life-cycle-in-software-testing/
-- https://www.alooba.com/skills/concepts/defect-management-423/defect-prioritization/
-- https://www.caktusgroup.com/blog/2018/04/30/prioritizing-defects/
+- TestRail: Defect Management — https://www.testrail.com/blog/defect-management/
+- TestSigma: Defects in Software Testing — https://testsigma.com/blog/defects-in-software-testing/
+- TestRigor: Defect-Based Testing — https://testrigor.com/blog/defect-based-testing/
+- BrowserStack: Defect Management in Software Testing — https://www.browserstack.com/guide/defect-management-in-software-testing
+- Katalon: Defect Management in Software Testing — https://katalon.com/resources-center/blog/defect-management-in-software-testing
+- Testomat: Bug Life Cycle in Software Testing — https://testomat.io/blog/bug-life-cycle-in-software-testing/
+- Alooba: Defect Prioritization — https://www.alooba.com/skills/concepts/defect-management-423/defect-prioritization/
+- Caktus Group: Prioritizing Defects — https://www.caktusgroup.com/blog/2018/04/30/prioritizing-defects/
 
 ## Notes from Reading Sources
 
