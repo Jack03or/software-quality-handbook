@@ -2,7 +2,7 @@
 
 ## Overview
 
-This retrospective looks back at how we built the Software Quality Handbook — what worked, what didn't, and what we'd do differently. We followed a GitHub workflow throughout, using feature branches, pull requests, and peer reviews, which kept things structured even when the work got messy.
+This retrospective looks back at how we built the Software Quality Handbook, what worked, what did not, and what we would do differently.
 
 ---
 
@@ -30,11 +30,13 @@ One pull request looked much larger than it was because the code editor auto-for
 
 ## What We Learned
 
-Pull requests and code reviews make more sense in practice than in theory. Reading about them is one thing — actually doing them, leaving feedback, and watching the content improve because of it is different.
+Pull requests and code reviews make more sense in practice than in theory. Reading about them is one thing, but actually doing them, leaving feedback, and watching the content improve because of it is different.
 
 Finding good sources took longer than expected. The brief asked for resources based on real experience rather than theory, which meant ruling out a lot of the obvious results and digging further.
 
 Trunk based development felt confusing at first but clicked quickly. Short branches, frequent merges, no long running feature work sitting around waiting to cause conflicts.
+
+One thing that stood out was how important clear communication is during reviews. Writing clear pull request descriptions and giving useful feedback made it much easier for the team to understand changes and improve the quality of the handbook.
 
 ---
 
