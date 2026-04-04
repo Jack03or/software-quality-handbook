@@ -13,10 +13,10 @@ _Figure: Example defect lifecycle showing how issues move from reporting to clos
 
 ## Why It Matters
 
-- Helps teams respond to bugs in a more organised way
-- Reduces confusion around priority and severity
-- Improves visibility of defects across the project
-- Supports better decision-making about what should be fixed first
+- Helps teams decide which defects to fix first when time and resources are limited
+- Ensures high-impact issues affecting core functionality or users are prioritised
+- Prevents less important bugs from blocking releases or important milestones
+- Keeps the team aligned on what is considered critical versus minor issues
 
 ## Best Practices
 
@@ -26,6 +26,7 @@ _Figure: Example defect lifecycle showing how issues move from reporting to clos
 - Track defects through a defined lifecycle
 - Fix high-priority issues first
 - Use a tracking tool to manage and monitor defects
+- Prioritise defects based on business impact rather than treating all issues equally
 
 ## Example
 
@@ -35,10 +36,12 @@ The original report should have included clear steps to reproduce the issue, the
 
 ## Common Challenges
 
-- Confusion between severity and priority
-- Incomplete or unclear bug reports
-- Poor communication between team members
-- Delays in triage or updating defect status
+- Incomplete defect reports slow everything down. Without steps to reproduce, screenshots, or environment details, developers waste hours trying to replicate the issue rather than fixing it.
+- Mixing up severity and priority leads to the wrong bugs getting fixed first. Severity is about how broken the code is, priority is about how much it matters to users. Get them confused and you end up with cosmetic issues blocking releases while data bugs sit untouched.
+- Poor communication between testers and developers leaves defects stuck in limbo. One side thinks it is fixed, the other does not, and nobody updates the status during handoffs.
+- Without clear ownership or regular triage, high impact bugs can sit unassigned for days while the team works through lower priority problems. By the time someone picks them up the damage is already done.
+- Skipping lifecycle stages like assigned, fixed, and retest means defects fall through the cracks. A bug marked as fixed is not the same as a bug that has been verified and closed.
+- Logging every minor issue without filtering clutters the defect board fast. When everything is in there, nothing stands out and the real priorities get buried.
 
 ## Bad Practices to Avoid
 
@@ -47,6 +50,7 @@ The original report should have included clear steps to reproduce the issue, the
 - Ignoring or delaying defect updates
 - Fixing issues without properly tracking them
 - Poor communication between team members
+- Treating all defects as equally urgent regardless of their impact on the system
 
 ## Further Reading
 
